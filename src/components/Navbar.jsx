@@ -36,19 +36,19 @@ function Navbar() {
             Home
           </Link>
           <Link
-            to="/investor"
+            to="/"
             className="relative py-2 border-b-2 border-transparent hover:border-[#00A3FF] hover:text-[#00A3FF] transition-all rounded-sm"
           >
             Investor
           </Link>
           <Link
-            to="/products"
+            to="/"
             className="relative py-2 border-b-2 border-transparent hover:border-[#00A3FF] hover:text-[#00A3FF] transition-all rounded-sm"
           >
             Products
           </Link>
           <Link
-            to="/roadmap"
+            to="/"
             className="relative py-2 border-b-2 border-transparent hover:border-[#00A3FF] hover:text-[#00A3FF] transition-all rounded-sm"
           >
             Roadmap
@@ -60,7 +60,7 @@ function Navbar() {
             About
           </Link>
           <Link
-            to="/support"
+            to="/"
             className="relative py-2 border-b-2 border-transparent hover:border-[#00A3FF] hover:text-[#00A3FF] transition-all rounded-sm"
           >
             Support
@@ -109,8 +109,8 @@ function Navbar() {
       </div>
 
       <div
-        className={`lg:hidden overflow-hidden transition-[max-height] duration-500 w-10/12 absolute top-1/1 m-auto left-0 right-0 text-center ${
-          isOpen ? "max-h-screen" : "max-h-0"
+        className={`lg:hidden overflow-hidden transition-[max-height] duration-500 w-12/12 absolute top-1/1 m-auto px-3 left-0 right-0 text-center z-50 bg-[#1E1E1E] ${
+          isOpen ? "h-screen" : "max-h-0"
         }`}
       >
         <nav className="flex flex-col gap-2 text-white">
